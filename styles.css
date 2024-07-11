@@ -1,9 +1,9 @@
-.upper_container{
+/* .upper_container{
     display: flex;
     justify-content: center;
 }
 .container{
-    /* width: 50px; */
+    
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
@@ -21,7 +21,7 @@
 }
 .end img{
     width: 150px;
-    /* border: 2px solid black; */   
+    
 }
 .middle
 {
@@ -31,5 +31,47 @@
 .container img{
     width: 150px;
     cursor: pointer;
+    
+} */
+
+.upper_container{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    /* width: 3.125rem; */ /* 50px */
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1.25rem; /* 20px */
+    margin-left: 2.5rem; /* 40px */
+    margin-right: 2.5rem; /* 40px */
+}
+
+.Scissor{
+    margin-top: 1.875rem; /* 30px */
+}
+
+.end{
+    border-radius: 10%;
+    margin-top: 2.5rem; /* 40px */
+    display: flex;
+    justify-content: space-around;
+}
+
+.end img{
+    width: 9.375rem; /* 150px */
+    /* border: 2px solid black; */   
+}
+
+.middle{
+    display: block;
+    text-align: center;
+}
+
+.container img{
+    width: 9.375rem; /* 150px */
+    cursor: pointer;
     /* border: 2px solid black; */
 }
+
